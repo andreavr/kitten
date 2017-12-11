@@ -1,4 +1,21 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+body {
+  background-image: url(../assets/dawn.png);
+}
+
+@media (min-width: 480px) {
+  body {
+    background-image: url(../assets/night.jpg);
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(../assets/sunny-day.jpg);
+  }
+}
