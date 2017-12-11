@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width: 1000px){
+    body {
+    background-image: url(../assets/sunny-day.jpg)
+    }
+}
+
+@media (min-width: 500px) {
+    body {
+      background-image: url(../assets/dawn.png)
+    }
+}
